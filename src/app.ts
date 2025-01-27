@@ -1,5 +1,6 @@
+import dotenv from 'dotenv'
+dotenv.config();
+import {Server} from './presentation/Servert';
 
 
-
-let dat:string="dilker";
-console.log(dat);
+const server = new Server();
